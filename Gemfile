@@ -1,11 +1,9 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
 
-gem 'sinatra',
+gem 'sinatra'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite'
 
 
 # Gems used only for assets and not required
@@ -17,16 +15,16 @@ gem 'sqlite'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
-end
+#   gem 'uglifier', '>= 1.0.3'
+# end
 
-gem 'jquery-rails'
+# gem 'jquery-rails'
 
-group :development do
-  gem 'annotate', '2.5.0'
-  gem "taps"
-  gem 'debugger'
-end
+# group :development do
+#   gem 'annotate', '2.5.0'
+#   gem "taps"
+#   gem 'debugger'
+# end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
