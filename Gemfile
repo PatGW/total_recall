@@ -1,5 +1,2 @@
-source :rubygems
-
-gem 'heroku'
-gem 'sinatra'
-gem 'thin'
+source 'http://rubygems.org'
+gem 'sinatra
