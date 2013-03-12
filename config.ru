@@ -1,2 +1,1 @@
-require './recall'
-run Sinatra::Application
+require './recall.rb'
